@@ -1,3 +1,5 @@
+
+
 class User {
   String email;
   String password;
@@ -34,6 +36,7 @@ class User {
 }
 
 class DATA {
+  
   static Map<String, User> users = {};
 
   static bool emailExists(String email) {
@@ -52,7 +55,5 @@ class DATA {
     return null; 
   }
 
-  static User? getUser(String email) {
-    return users[email]; 
-  }
+  
 }

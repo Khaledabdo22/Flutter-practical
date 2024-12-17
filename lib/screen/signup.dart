@@ -285,7 +285,7 @@ class _SignupState extends State<Signup> {
                         builder: (context) {
                           return AlertDialog(
                             content: const Text(
-                                "Please agree to the terms and fill all fields."),
+                                "Please fill all fields."),
                             actions: [
                               TextButton(
                                 onPressed: () {
